@@ -6,9 +6,14 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    # path(
-    #     'signin/', 
-    #     views.signin, 
-    #     name='profiles__signin'
-    # ),
+    path(
+        'get_my_profile/', 
+        views.get_my_profile, 
+        name='facebookapi__get_my_profile'
+    ),
+    path(
+        'connect/', 
+        views.connect, 
+        name='facebookapi__connect'
+    ),
 ]
