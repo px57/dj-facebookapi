@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
-from kernel.http.decorators import load_response
-from kernel.http import Response
+from gpm.http.decorators import load_response
+from gpm.http import Response
 
 from facebookapi.rules.stack import FACEBOOKAPI_RULESTACK
 
